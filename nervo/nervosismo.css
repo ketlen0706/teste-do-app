@@ -1,0 +1,123 @@
+body {
+    background-color: #f5dec9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 100px;
+    grid-template-areas:
+      "mensagem imagem botao"
+      "apoio apoio apoio";
+    min-height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  .mensagem {
+    grid-area: mensagem;
+    background-color: #d93ee4;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: justify;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+  
+  .imagem-caixa {
+    grid-area: imagem;
+    background-color: #ea88e7ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .titulo-nervosismo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  .botao-voltar {
+    grid-area: botao;
+    align-self: center;
+    justify-self: center;
+    background-color: #ffc107;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .botao-voltar:hover {
+    background-color: #e0a800;
+  }
+  
+  .apoio {
+    grid-area: apoio;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 10px;
+  }
+  
+.botoes-direita {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: self-end;
+  margin-top: 30px;
+  gap: 12px;
+}
+
+.botao-voltar{
+  background-color: #f8b500;
+  color: #fff;
+}
+.botao-playlist {
+  background-color: #f8b500;
+  color: #fff;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.botao-voltar:hover {
+  background-color: #d69500;
+}
+
+.botao-playlist {
+  background-color: #bb009c;
+  justify-content: end;
+  align-items: end;
+}
+
+.botao-playlist:hover {
+  background-color: #f063e4;
+}

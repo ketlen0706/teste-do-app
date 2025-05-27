@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lousa {
+    background: #d54a8fd8;
+    border: 10px solid #1D1D1B;
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 1000px;
+    height: 600px;
+    position: relative;
+}
+
+.cabecalho {
+    background: #d469bd;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.conteudo {
+    padding: 30px;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-iniciar {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff0051;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 150%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.botao-iniciar:hover {
+    background-color: #ff76bf;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    padding: 15px;
+    background: #E0E0E0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -40px;
+
+}
+
+.fundo-colorido {
+    background-color: #f1dca7;
+}

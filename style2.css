@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fddfc4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+  }
+  
+  .left {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left p {
+    margin-top: 32.5%;
+  }
+  
+  .left h1 {
+    color: #e53935;
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  .left p {
+    background-color: #ff5252;
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    width: fit-content;
+  }
+  
+  .left small {
+    margin-top: auto;
+    background-color: white;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: fit-content;
+  }
+  
+  .right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  
+  .emotion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .emotion img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .ansiedade {
+    background-color: #eb5200;
+    color: #000;
+  }
+  
+  .inveja {
+    background-color: #1ae8d4;
+    color: #000;
+  }
+  
+  .procrastinacao {
+    background-color: #818b90;
+    color: #000;
+  }
+  
+  .frustracao {
+    background-color: #028a02;
+    color: #000;
+  }
+  
+  .alegria {
+    background-color: #ffe600;
+    color: #000;
+  }
+  
+  .raiva {
+    background-color: #ff0000;
+    color: #000;
+  }
+  
+  .nervosismo {
+    background-color: #f48fb1;
+    color: #000;
+  }
+  
+  .tristeza {
+    background-color: #197ac9;
+    color: #000;
+  }
+  
+  .medo {
+    background-color: #752483;
+    color: #000;
+  }
+  
+  .info-extra {
+    margin-top: 20px;
+  }
+  
+  .info-extra p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-extra a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .botao-info {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d6efd;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .botao-info:hover {
+    background-color: #084298;
+  }
